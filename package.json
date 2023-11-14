@@ -1,0 +1,23 @@
+{
+  "name": "beaconchain-rpl-validator-monitor",
+  "version": "1.0.0",
+  "description": "A simple app to monitor a validator's RPL stake on Beaconcha.in",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "beaconcha.in",
+    "validator",
+    "monitor",
+    "stake"
+  ],
+  "author": "alchemydc",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bignumber.js": "^9.1.2",
+    "debug": "^4.3.4",
+    "dotenv": "^16.3.1"
+  }
+}
